@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/selv-presentation/static/css/main.20c7c7f3.css",
+    "main.js": "/selv-presentation/static/js/main.f2a5dd8d.js",
+    "static/media/IMG_4383.jpeg": "/selv-presentation/static/media/IMG_4383.27c4faa75bbbb58f5bbb.jpeg",
+    "static/media/portrait.jpeg": "/selv-presentation/static/media/portrait.8061230177b92edf0a0f.jpeg",
+    "static/media/IMG_9995.jpg": "/selv-presentation/static/media/IMG_9995.f28f6bfae47d4c1f4b36.jpg",
+    "static/media/IMG_4397.jpeg": "/selv-presentation/static/media/IMG_4397.2b88c91b28e2a9790273.jpeg",
+    "static/media/bridge.jpg": "/selv-presentation/static/media/bridge.712acb1684957a91cd30.jpg",
+    "static/media/Maidan_1.jpg": "/selv-presentation/static/media/Maidan_1.737782fc9489e2960c1d.jpg",
+    "index.html": "/selv-presentation/index.html",
+    "main.20c7c7f3.css.map": "/selv-presentation/static/css/main.20c7c7f3.css.map",
+    "main.f2a5dd8d.js.map": "/selv-presentation/static/js/main.f2a5dd8d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.20c7c7f3.css",
+    "static/js/main.f2a5dd8d.js"
+  ]
+}
