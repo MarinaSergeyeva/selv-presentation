@@ -1,0 +1,67 @@
+.hero_header {
+  display: flex;
+  flex-direction: column;
+  background-image: url("../assets/images/portrait.jpeg");
+  height: 100vh;
+  align-self: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.text {
+  color: white;
+  margin-bottom: 5.5rem;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.3);
+  border: 2px solid;
+
+  > p {
+    font-weight: 400;
+  }
+}
+
+hr {
+  margin: 1rem 0;
+}
+
+@media (min-width: 768px) and (max-width: 1439px) {
+  .hero_header {
+    background-position: 0 55%;
+  }
+
+  .text {
+    max-width: 60%;
+    padding: 2rem;
+  }
+}
+
+/* @media (min-width: 1200px) and (max-width: 1439px) {
+} */
+
+@media (min-width: 1440px) and (max-width: 2559px) {
+  .hero_header {
+    background-position: 0 45%;
+  }
+
+  .text {
+    max-width: 40%;
+    margin-left: 5rem;
+    padding: 2rem;
+  }
+}
+
+@media (min-width: 2560px) {
+  .hero_header {
+    background-position: 0 50%;
+  }
+
+  .text {
+    max-width: 55%;
+    margin-left: 5rem;
+    padding: 4rem;
+    border-width: 4px;
+  }
+}
