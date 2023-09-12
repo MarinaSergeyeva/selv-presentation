@@ -15,6 +15,7 @@ class Video extends React.Component {
     return (
       <YouTube
         videoId="jU2A0O-MwQA"
+        className="video-responsive"
         options={options}
         onReady={this._onReady}
         id="video"

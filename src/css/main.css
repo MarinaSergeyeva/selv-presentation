@@ -1,5 +1,22 @@
 body {
   font-family: "Outfit", sans-serif;
+  background: linear-gradient(-45deg, #ebffec, #e4e5ff, #c3eeff, #ffedd7);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 300vh;
+  color: #303030;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 section {
@@ -16,7 +33,7 @@ h1 {
 h2 {
   font-weight: 600;
   font-size: 2.3rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
   line-height: 1.5;
 }
 
@@ -42,15 +59,40 @@ hr {
   width: 280px;
 }
 
+.video-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+}
+
+.video-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
 @media (min-width: 768px) and (max-width: 1199px) {
   .container {
     width: 648px;
   }
+
+  .video-responsive {
+    width: 350px;
+  }
 }
 
 @media (min-width: 1200px) and (max-width: 1439px) {
+  h2 {
+    margin-bottom: 2rem;
+  }
   .container {
     width: 1080px;
+  }
+
+  .video-responsive {
+    width: 550px;
   }
 }
 
@@ -61,6 +103,7 @@ hr {
 
   h2 {
     font-size: 2.7rem;
+    margin-bottom: 3rem;
   }
 
   p,
@@ -72,6 +115,10 @@ hr {
   .container {
     width: 1280px;
   }
+
+  .video-responsive {
+    width: 725px;
+  }
 }
 
 @media (min-width: 2560px) {
@@ -80,17 +127,36 @@ hr {
   }
 
   h2 {
-    font-size: 5.3rem;
+    font-size: 5.5rem;
   }
 
   p,
   span {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 
   .container {
     width: 1920px;
   }
+
+  .video-responsive {
+    width: 1050px;
+  }
+}
+
+.footer {
+  font-size: 1rem;
+}
+
+/* Background */
+
+.background {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
 }
 
 /* MEDIA Breakpoints */

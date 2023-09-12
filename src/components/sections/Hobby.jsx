@@ -1,4 +1,5 @@
 import "../../css/sections.css";
+import Board from "../../assets/images/IMG_9995.jpg";
 
 const Hobby = () => (
   <section>
@@ -22,7 +23,7 @@ const Hobby = () => (
           </div>
           <div className="image_wrapper">
             <img
-              src="https://picsum.photos/700/500"
+              src={Board}
               alt="Kyiv"
             />
           </div>

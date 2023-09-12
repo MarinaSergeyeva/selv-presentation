@@ -17,11 +17,25 @@
   padding: 1rem;
   background: rgba(255, 255, 255, 0.3);
   border: 2px solid;
+  position: relative;
+  z-index: 3;
 
   > p {
     font-weight: 400;
   }
 }
+
+/* .text::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 78%;
+  left: -30%;
+  width: 147rem;
+  height: 120px;
+  background: rgb(255 255 255 / 30%);
+  z-index: 5;
+} */
 
 hr {
   margin: 1rem 0;
